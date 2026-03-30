@@ -1,1 +1,4 @@
 rockyou.txt filter=lfs diff=lfs merge=lfs -text
+# Force GitHub to recognize this as a Shell/Linux project
+*.py linguist-detectable=false
+* linguist-language=Shell
