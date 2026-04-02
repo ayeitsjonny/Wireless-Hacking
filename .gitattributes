@@ -1,4 +1,12 @@
-rockyou.txt filter=lfs diff=lfs merge=lfs -text
-# Force GitHub to recognize this as a Shell/Linux project
-*.py linguist-detectable=false
-* linguist-language=Shell
+# The .gitattributes file for better language detection
+
+# Detect Shell scripts that may contain sudo commands
+*.sh linguist-language=Shell
+*.bash linguist-language=Shell
+
+# Exclude other file types
+*.py linguist-hidden=true
+*.txt linguist-hidden=true
+*.md linguist-hidden=true
+*.c linguist-hidden=true
+*.* linguist-language=Text
