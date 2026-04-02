@@ -4,7 +4,7 @@
 This repository contains a collection of shell scripts designed for wireless network hacking. The scripts leverage powerful tools to facilitate tasks such as network monitoring, packet capturing, and password cracking. The primary goal is to provide users with techniques to enhance their understanding of wireless security and testing methodologies.
 
 ## Target OS
-The scripts are designed to run on **Linux** distributions, with a specific focus on **Ubuntu**.
+The scripts are designed to run on **Linux** distributions.
 
 ## Prerequisites
 Before you begin, ensure you have the following:
